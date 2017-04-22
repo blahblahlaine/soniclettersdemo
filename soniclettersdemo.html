@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="css/piano.css"/>
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/jquery-ui-1.8.20.custom.min.js"></script>
+    <script src="js/pianodemo.js"></script>
+      
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+      
+      
+    <title>Sonic Letters Demo</title>
+  </head>
+  <body>
+    <audio id="sound-A0" src="samples/A0.ogg" preload="auto"></audio>
+    <audio id="sound-Bb0" src="samples/Bb0.ogg" preload="auto"></audio>
+    <audio id="sound-B0" src="samples/B0.ogg" preload="auto"></audio>
+    
+    <audio id="sound-C1" src="samples/C1.ogg" preload="auto"></audio>
+    <audio id="sound-Db1" src="samples/Db1.ogg" preload="auto"></audio>
+    <audio id="sound-D1" src="samples/D1.ogg" preload="auto"></audio>
+    <audio id="sound-Eb1" src="samples/Eb1.ogg" preload="auto"></audio>
+    <audio id="sound-E1" src="samples/E1.ogg" preload="auto"></audio>
+    <audio id="sound-F1" src="samples/F1.ogg" preload="auto"></audio>
+    <audio id="sound-Gb1" src="samples/Gb1.ogg" preload="auto"></audio>
+    <audio id="sound-G1" src="samples/G1.ogg" preload="auto"></audio>
+     <audio id="sound-Ab1" src="samples/Ab1.ogg" preload="auto"></audio>
+    <audio id="sound-A1" src="samples/A1.ogg" preload="auto"></audio>
+    <audio id="sound-Bb1" src="samples/Bb1.ogg" preload="auto"></audio>
+    <audio id="sound-B1" src="samples/B1.ogg" preload="auto"></audio>
+      
+    <audio id="sound-C2" src="samples/C2.ogg" preload="auto"></audio>
+    <audio id="sound-Db2" src="samples/Db2.ogg" preload="auto"></audio>
+    <audio id="sound-D2" src="samples/D2.ogg" preload="auto"></audio>
+    <audio id="sound-Eb2" src="samples/Eb2.ogg" preload="auto"></audio>
+    <audio id="sound-E2" src="samples/E2.ogg" preload="auto"></audio>
+    <audio id="sound-F2" src="samples/F2.ogg" preload="auto"></audio>
+    <audio id="sound-Gb2" src="samples/Gb2.ogg" preload="auto"></audio>
+    <audio id="sound-G2" src="samples/G2.ogg" preload="auto"></audio>
+     <audio id="sound-Ab2" src="samples/Ab2.ogg" preload="auto"></audio>
+    <audio id="sound-A2" src="samples/A2.ogg" preload="auto"></audio>
+    <audio id="sound-Bb2" src="samples/Bb2.ogg" preload="auto"></audio>
+    <audio id="sound-B2" src="samples/B2.ogg" preload="auto"></audio>
+    
+    <audio id="sound-C3" src="samples/C3.ogg" preload="auto"></audio>
+    <audio id="sound-Db3" src="samples/Db3.ogg" preload="auto"></audio>
+    <audio id="sound-D3" src="samples/D3.ogg" preload="auto"></audio>
+    <audio id="sound-Eb3" src="samples/Eb3.ogg" preload="auto"></audio>
+    <audio id="sound-E3" src="samples/E3.ogg" preload="auto"></audio>
+    <audio id="sound-F3" src="samples/F3.ogg" preload="auto"></audio>
+    <audio id="sound-Gb3" src="samples/Gb3.ogg" preload="auto"></audio>
+    <audio id="sound-G3" src="samples/G3.ogg" preload="auto"></audio>
+     <audio id="sound-Ab3" src="samples/Ab3.ogg" preload="auto"></audio>
+    <audio id="sound-A3" src="samples/A3.ogg" preload="auto"></audio>
+    <audio id="sound-Bb3" src="samples/Bb3.ogg" preload="auto"></audio>
+    <audio id="sound-B3" src="samples/B3.ogg" preload="auto"></audio>
+      
+    <audio id="sound-C4" src="samples/C4.ogg" preload="auto"></audio>
+    <audio id="sound-Db4" src="samples/Db4.ogg" preload="auto"></audio>
+    <audio id="sound-D4" src="samples/D4.ogg" preload="auto"></audio>
+    <audio id="sound-Eb4" src="samples/Eb4.ogg" preload="auto"></audio>
+    <audio id="sound-E4" src="samples/E4.ogg" preload="auto"></audio>
+    <audio id="sound-F4" src="samples/F4.ogg" preload="auto"></audio>
+    <audio id="sound-Gb4" src="samples/Gb4.ogg" preload="auto"></audio>
+    <audio id="sound-G4" src="samples/G4.ogg" preload="auto"></audio>
+    <audio id="sound-Ab4" src="samples/Ab4.ogg" preload="auto"></audio>
+    <audio id="sound-A4" src="samples/A4.ogg" preload="auto"></audio>
+    <audio id="sound-Bb4" src="samples/Bb4.ogg" preload="auto"></audio>
+    <audio id="sound-B4" src="samples/B4.ogg" preload="auto"></audio> 
+      
+    <audio id="sound-C5" src="samples/C5.ogg" preload="auto"></audio>
+    <audio id="sound-Db5" src="samples/Db5.ogg" preload="auto"></audio>
+    <audio id="sound-D5" src="samples/D5.ogg" preload="auto"></audio>
+    <audio id="sound-Eb5" src="samples/Eb5.ogg" preload="auto"></audio>
+    <audio id="sound-E5" src="samples/E5.ogg" preload="auto"></audio>
+    <audio id="sound-F5" src="samples/F5.ogg" preload="auto"></audio>
+    <audio id="sound-Gb5" src="samples/Gb5.ogg" preload="auto"></audio>
+    <audio id="sound-G5" src="samples/G5.ogg" preload="auto"></audio>
+    <audio id="sound-Ab5" src="samples/Ab5.ogg" preload="auto"></audio>
+    <audio id="sound-A5" src="samples/A5.ogg" preload="auto"></audio>
+    <audio id="sound-Bb5" src="samples/Bb5.ogg" preload="auto"></audio>
+    <audio id="sound-B5" src="samples/B5.ogg" preload="auto"></audio>  
+      
+    <audio id="sound-C6" src="samples/C6.ogg" preload="auto"></audio>
+    <audio id="sound-Db6" src="samples/Db6.ogg" preload="auto"></audio>
+    <audio id="sound-D6" src="samples/D6.ogg" preload="auto"></audio>
+    <audio id="sound-Eb6" src="samples/Eb6.ogg" preload="auto"></audio>
+    <audio id="sound-E6" src="samples/E6.ogg" preload="auto"></audio>
+    <audio id="sound-F6" src="samples/F6.ogg" preload="auto"></audio>
+    <audio id="sound-Gb6" src="samples/Gb6.ogg" preload="auto"></audio>
+    <audio id="sound-G6" src="samples/G6.ogg" preload="auto"></audio>
+    <audio id="sound-Ab6" src="samples/Ab6.ogg" preload="auto"></audio>
+    <audio id="sound-A6" src="samples/A6.ogg" preload="auto"></audio>
+    <audio id="sound-Bb6" src="samples/Bb6.ogg" preload="auto"></audio>
+    <audio id="sound-B6" src="samples/B6.ogg" preload="auto"></audio> 
+      
+    <audio id="sound-C7" src="samples/C7.ogg" preload="auto"></audio>
+    <audio id="sound-Db7" src="samples/Db7.ogg" preload="auto"></audio>
+    <audio id="sound-D7" src="samples/D7.ogg" preload="auto"></audio>
+    <audio id="sound-Eb7" src="samples/Eb7.ogg" preload="auto"></audio>
+    <audio id="sound-E7" src="samples/E7.ogg" preload="auto"></audio>
+    <audio id="sound-F7" src="samples/F7.ogg" preload="auto"></audio>
+    <audio id="sound-Gb7" src="samples/Gb7.ogg" preload="auto"></audio>
+    <audio id="sound-G7" src="samples/G7.ogg" preload="auto"></audio>
+    <audio id="sound-Ab7" src="samples/Ab7.ogg" preload="auto"></audio>
+    <audio id="sound-A7" src="samples/A7.ogg" preload="auto"></audio>
+    <audio id="sound-Bb7" src="samples/Bb7.ogg" preload="auto"></audio>
+    <audio id="sound-B7" src="samples/B7.ogg" preload="auto"></audio>  
+      
+    <audio id="sound-C8" src="samples/C8.ogg" preload="auto"></audio>
+    
+        
+        <div id="banner">
+            <h1>Press a key on your keyboard.</h1>
+   
+            
+                      </div>
+      <div class="piano-container">
+        <div class="piano-keys">
+         
+            <div id="C" class="piano-white C piano-C1 piano-C2 piano-C3 piano-C4 piano-C5 piano-C6 piano-C7 piano-C8"></div>
+            
+            <div id="Db" class="piano-black">
+            <div class="piano-black-raised Db piano-Db1 piano-Db2 piano-Db3 piano-Db4 piano-Db5 piano-Db6 piano-Db7"></div></div>
+            
+            <div id="D" class="piano-white D piano-D1 piano-D2 piano-D3 piano-D4 piano-D5 piano-D6"></div>
+          
+            <div id="Eb" class="piano-black">
+            <div class="piano-black-raised Eb piano-Eb1 piano-Eb2 piano-Eb3 piano-Eb4 piano-Eb5 piano-Eb6 piano-Eb7"></div></div>
+          
+            <div id="E" class="piano-white E piano-E1 piano-E2 piano-E3 piano-E4 piano-E5 piano-E6 piano-E7"></div>
+          
+            <div id="F" class="piano-white F piano-F1 piano-F2 piano-F3 piano-F4 piano-F5 piano-F6 piano-F7"></div>
+          
+            <div class="piano-black">
+            <div id="Gb" class="piano-black-raised Gb piano-Gb1 piano-Gb2 piano-Gb3 piano-Gb4 piano-Gb5 piano-Gb6 piano-Gb7"></div></div>
+          
+            <div id="G" class="piano-white G piano-G1 piano-G2 piano-G3 piano-G4 piano-G5 piano-G6 piano-G7"></div>
+          
+            <div id="Ab" class="piano-black">
+            <div class="piano-black-raised Ab piano-Ab1 piano-Ab2 piano-Ab3 piano-Ab4 piano-Ab15 piano-Ab6 piano-Ab7"></div></div>
+          
+            <div id="A" class="piano-white A  piano-A0 piano-A1 piano-A2 piano-A3 piano-A4 piano-A5 piano-A6 piano-A7"></div>
+          
+            <div class="piano-black">
+            <div id="Bb" class="piano-black-raised Bb piano-Bb0 piano-Bb1 piano-Bb2 piano-Bb3 piano-Bb4 piano-Bb5 piano-Bb6 piano-Bb7"></div></div>
+          
+            <div id="B" class="piano-white B piano-Bb0 piano-B1 piano-B2 piano-B3 piano-B4 piano-B5 piano-B6 piano-B7"></div>
+        
+          </div>
+            
+        
+        
+      </div>
+     
+     
+    
+  </body>
+</html>

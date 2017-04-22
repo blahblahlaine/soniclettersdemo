@@ -1,0 +1,133 @@
+/**
+  Copyright 2012 Michael Morris-Pearce
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program. If not, see <http://www.gnu.org/licenses/>.
+*/
+
+body {
+font-family: 'Roboto Mono', monospace;
+}
+
+#banner {
+padding-left: 50px;
+margin-top: 0px;
+width: 95%;
+
+text-align: left;
+}
+
+h1 {
+color: black;
+font-size: 60px;
+text-align: center;
+margin-bottom: 0px;
+
+}
+
+h2{
+margin-bottom: 30px;}
+
+#banner p {
+padding-left: 0px;
+color: black;
+text-align: left;
+color:black; }
+
+audio {
+display: none;
+}
+
+
+
+.piano-container {
+width: 95%;
+text-align: center;
+padding-top: 50px;
+
+height: auto;
+z-index: 0;
+
+}
+
+
+.piano-keys{
+  word-spacing: 0;
+  letter-spacing: 0;
+  font-size: 0px;
+}
+
+
+.piano-pedal {
+  margin: 10px;
+}
+
+.piano-sustain {
+  color: black;
+}
+
+.piano-white, .piano-black {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  direction: ltr;
+padding: 0;
+}
+
+.piano-white, .piano-black-raised {
+cursor: pointer;
+}
+
+
+
+.C  {background-color: #3898F5;}
+.Db {background-color: #0045F2;}
+.D  {background-color: #844EF3;}
+.Eb {background-color: #EC5FF5;}
+.E  {background-color: #EC4C91;}
+.F  {background-color: #EC422B;}
+.Gb {background-color: #F2963F;}
+.G  {background-color: #FFF95C;}
+.Ab {background-color: #ABF456;}
+.A  {background-color: #71F252;}
+.Bb {background-color: #70F49D;}
+.B  {background-color: #6EF9FD;}
+
+
+
+.piano-white {
+  width: 100px;
+  height: 400px;
+  border: 3px solid black;
+margin-left: 0.5em;
+}
+
+.piano-black {
+  width: 0px;
+  height: 250px;
+  z-index: 2;  
+}
+
+.piano-black-raised {
+  width: 64px;
+  height: 250px;
+  position: relative;
+  left: -35px;
+  border: 2px solid black;
+}
+
+.subtitle {
+margin-top: 1050px;
+    height:0px;
+position:inherit;
+margin-bottom: 100px;}
