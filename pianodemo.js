@@ -46,10 +46,16 @@
     'C8'
   ];
 
-  /* Corresponding keyboard keycodes, in order w/ 'keys'. */
-  /* QWERTY layout:
-  /*   upper register: Q -> P, with 1-0 as black keys. */
-  /*   lower register: Z -> M, , with A-L as black keys. */
+/* Corresponding keyboard keycodes, in order w/ 'keys'. 
+/*C -> B 66, e 101, I 73,  l 108, P 80,  s 115, W 87, z 122
+  D -> b 98, F 70,  i 105, M 77,  p 112, T 84,  w 119
+  E -> C 67, f 102, J 74,  m 109, Q 81,  t 116, X 88
+  F -> c 99, G 71,  j 106, N 78,  q 113, U 85,  x 120
+  G -> D 68, g 103, K 75,  n 110, R 82,  u 117, Y 89
+  A -> A 65, d 100, H 72,  k 107, O 79,  r 114, V 86,  y 121
+  B -> a 97, E 69,  h 104, L 76,  o 111, S 83,  v 118, Z 90
+
+    */
   
   var codes = [
      65,   8,    97,
@@ -170,7 +176,7 @@
       }
       if (key.length > 2) {
         $(pianoClass(key)).animate({
-        
+        'backgroundColor':'black'
         }, 300, 'easeOutExpo');
       } else {
         $(pianoClass(key)).animate({
